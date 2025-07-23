@@ -28,6 +28,6 @@ if(EMSCRIPTEN)
 
 else()
 
-    target_link_libraries(main yaml-cpp)
+    target_link_libraries(${PROJECT_NAME} yaml-cpp)
 
 endif()
