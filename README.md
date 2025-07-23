@@ -1,4 +1,4 @@
-# yaml-cpp-wasm-sample
+# yaml-cpp-wasm
 
 Example of a WebAssembly application that reads a YAML file
 
@@ -19,7 +19,6 @@ features:
 ```shell
 make build/wasm run/wasm
 ```
-open http://localhost:8080/
+open http://localhost:8080
 
-output
 ![browser](image.png)
